@@ -1,0 +1,17 @@
+{
+  "inc": {
+    "prefix": "inc",
+    "body": ["#include <iostream>"],
+    "description": "input/output stream"
+  },
+  "starter": {
+    "prefix": "starter",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "int main(){",
+      "\treturn 0;",
+      "}"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "print": {
+    "prefix": "print",
+    "body": ["print(f\"$1\")"],
+    "description": "print with f-string"
+  },
+  "class": {
+    "prefix": "gront",
+    "body": ["class $1:", "\tdef __init__(self, $2):", "\t\t$3"],
+    "description": "class with init"
+  },
+  "starter": {
+    "prefix": "starter",
+    "body": [
+      "\n",
+      "def main():\n\tpass",
+      "\n",
+      "if __name__ == \"__main__\":",
+      "\tmain()"
+    ],
+    "description": "starter file"
+  },
+  "floatInput": {
+    "prefix": "finput",
+    "body": ["float(input(\"$1\"))"],
+    "description": "float input"
+  },
+  "intInput": {
+    "prefix": "iinput",
+    "body": ["int(input(\"$1\"))"],
+    "description": "int input"
+  },
+  "stringInput": {
+    "prefix": "input",
+    "body": ["input(\"$1\")"],
+    "description": "string input"
+  }
+}
